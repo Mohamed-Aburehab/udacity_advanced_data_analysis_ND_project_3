@@ -30,3 +30,7 @@ the data we choose is 2008 expo data set which consists of data for flight arriv
 ## Modeling 
 can we predict if a fligh be cancelled or not ??, we will use logistic regression to predect so
 logistic regression accuracy is 0.9999191599866661 
+our model accuracy is too high but this can be due to the number of features we have which make it easer for the model to correctly predict if a flight will be cancelled or not 
+
+## Limitations 
+* some features has alot of missing values (98%, 78%) which make it very hard to drop or to fill with other value or trying to predict a value for the missing data  
